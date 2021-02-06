@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F.R.I.E.N.D.S</title>
+    <link rel="icon" href="img/icone.png" type="image/icon type">
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body id="page1">
+    <section>
+        <div class="navposter" id="first"></div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">If You Want ...
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">If You Want S.M.I.L.E</a>
+                    <a href="#">If You Want C.R.Y</a>
+                    <a href="#">If You Want L.A.U.G.H</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn btn1">See Other Series
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">How I Met Your Mother</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <section class="picgrid" id="worklink">
+
+                <div class="grid" id="grid1">
+
+                    <img src="img/frindsSeason (1).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic1">
+                </div>
+
+                <div class="grid" id="grid2">
+
+                    <img src="img/frindsSeason (2).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic2">
+                </div>
+
+                <div class="grid" id="grid3">
+
+                    <img src="img/frindsSeason (3).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic3">
+                </div>
+
+                <div class="grid" id="grid4">
+
+                    <img src="img/frindsSeason (4).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic4">
+                </div>
+
+                <div class="grid" id="grid5">
+
+                    <img src="img/frindsSeason (5).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic5">
+                </div>
+
+                <div class="grid" id="grid6">
+
+                    <img src="img/frindsSeason (6).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic6">
+                </div>
+
+                <div class="grid" id="grid7">
+
+                    <img src="img/frindsSeason (7).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic7">
+                </div>
+
+                <div class="grid" id="grid8">
+
+                    <img src="img/frindsSeason (8).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic8">
+                </div>
+
+                <div class="grid" id="grid9">
+
+                    <img src="img/frindsSeason (9).jpg" onclick="onClick(this)" class="modal-hover-opacity" id="myimage"
+                        alt="pic9">
+                </div>
+
+                <div class="grid" id="grid10">
+
+                    <img src="img/frindsSeason (10).jpg" onclick="onClick(this)" class="modal-hover-opacity"
+                        id="myimage" alt="pic10">
+                </div>
+
+                <!-- The Modal -->
+                <div id="modal01" class="modal" onclick="this.style.display='none'">
+                    <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                    <div class="modal-content">
+                        <img id="img01" style="max-width:100%">
+                    </div>
+                </div>
+            </section>
+
+
+            <div class="randombox">
+                <div class="container">
+                    <button class="btn" aria-selected="false">Random Episode >></button>
+                </div>
+
+                <div id="showmain"></div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+        <div id="backbot">
+            <a href="index.html"><img src="img/backfirst.png"></a>
+        </div>
+
+        <div id="upbot">
+            <a href="#first"><img src="img/upicone.png"></a>
+        </div>
+
+    </section>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js.js"></script>
+
+</html>
